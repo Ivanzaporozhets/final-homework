@@ -493,6 +493,9 @@ h1 {
     @media (max-width: 992px) {
       .discuss form .btn {
         float: none; } }
+    @media (max-width: 576px) {
+      .discuss form .btn {
+        text-align: center; } }
     .discuss form .btn:hover {
       text-decoration: none;
       color: #0eb493; }
@@ -509,6 +512,12 @@ h1 {
 
 .discuss li {
   margin-bottom: 20px; }
+
+@media (max-width: 576px) {
+  .discuss .social-discuss {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px; } }
 
 .discuss .social-discuss a {
   color: #cdd2d6;

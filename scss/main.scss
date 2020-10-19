@@ -583,7 +583,9 @@ h1 {
       @media (max-width: 992px) {
         float: none;
       }
-
+      @media (max-width: 576px) {
+        text-align: center;
+      }
       &:hover {
         text-decoration: none;
         color: $h2-color;
@@ -608,10 +610,14 @@ h1 {
   }
 
   .social-discuss {
+    @media (max-width: 576px) {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 50px;
+    }
     a {
       @include fonts (#cdd2d6, $font-weight, 20px);
       padding: 5px;
-
       &:hover {
         color: $h2-color;
       }
